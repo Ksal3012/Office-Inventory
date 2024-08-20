@@ -1,0 +1,112 @@
+
+
+h1 {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h2 {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  width: 410px;
+  padding: 10px 0; /* Add some padding for spacing */
+  font-size: 1.5rem;
+
+}
+
+/* Container for both tables */
+.table-container { 
+  display: flex; 
+  justify-content: space-between; 
+  margin: 20px; 
+} 
+
+/* Each section for tables */
+.table-section {
+  flex: 1;
+  margin: 0 10px; /* Add margin between tables */
+}
+
+.info-container { 
+  border-collapse: collapse; 
+  width: 70%; 
+  border: solid;
+} 
+
+.info-container th, .info-container td {
+  border: 2px solid black;
+  padding: 6px;
+  text-align: left;
+  inline-size: 100px;
+
+}
+
+.info-container th {
+  background-color: #aeadad;
+}
+
+
+.entries-container {
+  max-height: 370px; /* Set height for scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: block;
+  border: solid; /* Border for visual distinction */
+  width: 70%;
+  margin-left: 0px;
+  border-collapse: collapse;
+
+}
+
+.entries-container table {
+  width: 100%;  
+}
+
+.entries-container th, .entries-container td {
+  border: 2px solid black;
+  padding: 6px;
+  text-align: left;
+  inline-size: 170px;
+
+}
+
+.entries-container th {
+  background-color: #aeadad;
+}
+
+.btn {
+  float: right;
+  margin-top: 121px;
+  margin-right: 100px;
+  border: solid;
+  padding: .2em;
+}
+
+.grand-total-container {
+  float: right;
+  margin-top: -470px;
+  margin-right: 100px;
+  border: solid;
+  padding: .2em;
+}
+
+.grand-total-container td {
+  width: 10px;
+  inline-size: 100px;
+  height: 5px;
+  block-size: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  margin-left: 10px;
+}
+
+body {
+  background-color: antiquewhite;
+}
